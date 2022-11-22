@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/listItemResident"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="203dp"
+            app:srcCompat="@drawable/trip"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/listItemResidentName"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:padding="5dp"
+            android:text="Name"
+            android:textColor="@color/Blue_ocean"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/listItemResidentUsername"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:padding="5dp"
+            android:text="Username"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/listItemResidentDestination"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:padding="5dp"
+            android:text="Destination"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/listItemResidentDescription"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:padding="5dp"
+            android:text="Description"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/listItemResidentStartDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="Date"
+                android:textColor="@color/light_green"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/listItemResidentNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="Number of passenger"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/listItemResidentRisk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="RequiresRisk"
+                android:textAlignment="textEnd"
+                android:textSize="10sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

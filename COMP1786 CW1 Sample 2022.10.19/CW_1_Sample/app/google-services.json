@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "196291050459",
+    "project_id": "fir-backup-50f8a",
+    "storage_bucket": "fir-backup-50f8a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196291050459:android:a25c80908f9adde89005fe",
+        "android_client_info": {
+          "package_name": "vn.edu.greenwich.cw_1_sample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196291050459-8ql82vjcbhlf5bg23beh631qopllsc3m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9aV_NdgjAuAPizBk3vj2s6j8GoTjq8jU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "196291050459-8ql82vjcbhlf5bg23beh631qopllsc3m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
